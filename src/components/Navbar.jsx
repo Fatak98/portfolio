@@ -16,7 +16,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link
                                 className="nav-link text-white"
-                                to="/?section=projects"
+                                to="/#projects"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarToggleExternalContent"
                             >
@@ -27,7 +27,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link
                                 className="nav-link text-white"
-                                to="/?section=pin_project"
+                                to="/#pin_project"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarToggleExternalContent"
                             >
@@ -66,7 +66,7 @@ export default function Navbar() {
 
                         <li className="nav-item">
                             <Link
-                                to="/?section=projects"
+                                to="/#projects"
                                 className="nav-link btn btn-outline-light"
                             >
                                 projects
@@ -75,7 +75,7 @@ export default function Navbar() {
 
                         <li className="nav-item">
                             <Link
-                                to="/?section=pin_project"
+                                to="/#pin_project"
                                 className="nav-link btn btn-outline-light"
                             >
                                 About me
