@@ -33,9 +33,10 @@ export default function Home() {
 
                 <div className="container col-xxl-12 pb-4 px-4">
                     <a
-                        className="active btn-purple border-0 p-2 fs-5 text-decoration-none"
-                        href="/fatemehmanafi.pdf"
-                        download
+                        className="btn-purple border-0 p-2 fs-5 text-decoration-none"
+                        href="/portfolio/fatemehmanafi.pdf"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         Download CV
                     </a>
@@ -229,7 +230,7 @@ export default function Home() {
                         />
 
                         <div className="card-body d-flex flex-column justify-content-between">
-                            <div sName="pb-5">
+                            <div clssName="pb-5">
                                 <h5 className="card-title">commerce web app</h5>
                                 <p className="card-text">
                                     A responsive e-commerce web app built with React and Redux for efficient state management.

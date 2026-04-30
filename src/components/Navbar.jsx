@@ -15,7 +15,7 @@ export default function Navbar() {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                             <Link className="nav-link text-white" to="/#projects">
-                                projects
+                                Projects
                             </Link>
                         </li>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
                                 to="/#projects"
                                 className="nav-link btn btn-outline-light"
                             >
-                                projects
+                                Projects
                             </Link>
                         </li>
 

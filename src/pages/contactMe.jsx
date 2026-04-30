@@ -28,7 +28,7 @@ export default function ContactMe() {
                 <div className="row justify-content-center g-4 mt-4">
                     <div className="col-10 col-sm-6 col-md-4 col-lg-2">
                         <a
-                            href="mailto:fatemeh.manafi89@gmail.com?subject=Contact%20from%20Portfolio"
+                            href="mailto:fatemeh.manafi89@gmail.com"
                             className="contact-card"
                         >
                             <div className="contact-content">
@@ -69,17 +69,17 @@ export default function ContactMe() {
                     <div className="col-10 col-sm-6 col-md-4 col-lg-2">
                         <a
                             className="download-card"
-                            href="/fatemehmanafi.pdf"
-                            download
+                            href="/portfolio/fatemehmanafi.pdf"
+                            target="_blank"
+                            rel="noreferrer"
                         >
-                            <div className="contact-content">
-                                <span>Download CV</span>
-                            </div>
+                            Download CV
                         </a>
-                    </div>
-
+                    
                 </div>
+
             </div>
-        </section>
+        </div>
+        </section >
     );
 }
