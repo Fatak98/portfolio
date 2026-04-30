@@ -34,12 +34,12 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <a
+                            <Link
                                 className="nav-link text-white"
                                 href="/contact"
                             >
                                 Contact me
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -67,12 +67,12 @@ export default function Navbar() {
                         </li>
 
                         <li className="nav-item">
-                            <a
+                            <Link
                                 href="/contact"
                                 className="nav-link active btn-purple ms-3"
                             >
                                 Contact me
-                            </a>
+                            </Link>
                         </li>
                     </ul>
 
