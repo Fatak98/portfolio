@@ -229,7 +229,7 @@ export default function Home() {
                         />
 
                         <div className="card-body d-flex flex-column justify-content-between">
-                            <div >
+                            <div sName="pb-5">
                                 <h5 className="card-title">commerce web app</h5>
                                 <p className="card-text">
                                     A responsive e-commerce web app built with React and Redux for efficient state management.

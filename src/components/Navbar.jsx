@@ -4,17 +4,19 @@ import "./Components.css";
 export default function Navbar() {
     return (
         <div className="Main_container container-fluid p-0">
+
             {/* MOBILE MENU */}
             <div
                 className="collapse d-lg-none fixed-top mobile-menu"
                 id="navbarToggleExternalContent"
             >
-                <div className="bg-purple-dark pt-4 pb-2 mt-5 ">
+                <div className="bg-purple-dark pt-4 pb-2 mt-5">
                     <ul className="nav flex-column">
+
                         <li className="nav-item">
                             <Link
                                 className="nav-link text-white"
-                                to="/#projects"
+                                to="/?section=projects"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarToggleExternalContent"
                             >
@@ -25,7 +27,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link
                                 className="nav-link text-white"
-                                to="/#pin_project"
+                                to="/?section=pin_project"
                                 data-bs-toggle="collapse"
                                 data-bs-target="#navbarToggleExternalContent"
                             >
@@ -37,10 +39,13 @@ export default function Navbar() {
                             <Link
                                 className="nav-link text-white"
                                 to="/contact"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarToggleExternalContent"
                             >
                                 Contact me
                             </Link>
                         </li>
+
                     </ul>
                 </div>
             </div>
@@ -48,20 +53,31 @@ export default function Navbar() {
             {/* MAIN NAVBAR */}
             <nav className="navbar navbar-expand-lg bg-white px-5 py-3 fixed-top shadow-sm">
                 <div className="container-fluid d-flex justify-content-between align-items-center p-0">
-                    <Link className="text-decoration-none" to="/#home">
-                        <h2 className="fs-5 m-0 p-0 logoColor">Fatemeh Manafi</h2>
+
+                    {/* LOGO */}
+                    <Link className="text-decoration-none" to="/">
+                        <h2 className="fs-5 m-0 p-0 logoColor">
+                            Fatemeh Manafi
+                        </h2>
                     </Link>
 
                     {/* DESKTOP MENU */}
                     <ul className="nav nav-pills d-none d-lg-flex align-items-center">
+
                         <li className="nav-item">
-                            <Link to="/#projects" className="nav-link btn btn-outline-light">
+                            <Link
+                                to="/?section=projects"
+                                className="nav-link btn btn-outline-light"
+                            >
                                 projects
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to="/#pin_project" className="nav-link btn btn-outline-light">
+                            <Link
+                                to="/?section=pin_project"
+                                className="nav-link btn btn-outline-light"
+                            >
                                 About me
                             </Link>
                         </li>
@@ -74,6 +90,7 @@ export default function Navbar() {
                                 Contact me
                             </Link>
                         </li>
+
                     </ul>
 
                     {/* MOBILE BUTTON */}
@@ -88,6 +105,7 @@ export default function Navbar() {
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
+
                 </div>
             </nav>
         </div>
