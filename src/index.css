@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #321717;
+  color: #ffffff;
+}
+
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; 
+}
+

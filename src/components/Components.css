@@ -1,0 +1,195 @@
+/*----------------------------------------- GLOBAL CSS -----------------------------------------*/
+/* 1. Purple Links (Desktop) */
+.nav-pills .nav-link:not(.active) {
+    color: #537ef5;
+}
+
+/* 2. Purple Button (Both) */
+.btn-purple.active {
+    background-color: #537ef5 !important;
+    color: #fff !important;
+    border-radius: 8px;
+}
+
+
+/*----------------------------------------- NAVBAR SECTION CSS -----------------------------------------*/
+
+.navbar-toggler-icon {
+    background-image: none !important;
+    background-color: rgb(237, 71, 71);
+    mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+
+/* 3. Mobile Drawer Background */
+.bg-purple-dark {
+    background-color: #1a2952;
+}
+
+/* 4. Hamburger Fix */
+.custom-toggler {
+    border-color: #385bbc !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    filter: invert(33%) sepia(51%) saturate(2878%) hue-rotate(246deg) brightness(92%) contrast(90%);
+}
+
+.logocolor {
+    color: #537ef5;
+    border: 2px solid #537ef5;
+    border-radius: 8px;
+}
+
+/* -----------------------------------------HERO SECTION CSS -----------------------------------------*/
+
+.highlight {
+    color: hsl(217, 47%, 56%);
+}
+
+.hero-heading {
+    margin-top: 40px;
+}
+
+.hero_text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #818181;
+    margin-bottom: 2rem;
+}
+
+.h1_Hero {
+    /* font-family: var(--font-display); */
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.5rem;
+
+}
+
+
+.hero-eyebrow {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ffffff;
+    /* Using your purple brand color */
+    background: #537ef5;
+    /* Light purple tint */
+    padding: 4px 12px;
+    border-radius: 50px;
+    display: inline-flex;
+    /* Shrinks the background to fit text */
+    width: fit-content;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    /* Green for "Open" */
+    border-radius: 500%;
+    display: inline-block;
+    margin-right: 8px;
+    /* Optional: SaaS pulse animation */
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(3, 234, 3, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(46, 204, 113, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(46, 204, 113, 0);
+    }
+}
+
+/* -----------------------------------------CONTACT ME SECTION CSS -----------------------------------------*/
+.h2_Hero {
+    /* font-family: var(--font-display); */
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+
+}
+
+.contact-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-hero {
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.contact-text {
+    padding-bottom: 40px;
+    border-radius: 18px;
+}
+
+.contact-text p {
+    margin: 0;
+    font-size: 1rem;
+    color: #818181;
+}
+
+
+.contact-card:hover {
+    background-color: #537ef5;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.contact-card {
+    height: 80px;
+    border:2px solid #537ef5;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #111;
+    transition: 0.25s ease;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.Span-me {
+    color: #537ef5;
+}
+
+.download-card {
+    height: 80px;
+    border:2px solid #537ef5;
+    background-color: #537ef5;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fffcfc;
+    font-style: bold;
+    transition: 0.25s ease;
+}
