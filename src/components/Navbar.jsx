@@ -6,46 +6,30 @@ export default function Navbar() {
         <div className="Main_container container-fluid p-0">
 
             {/* MOBILE MENU */}
+            {/* MOBILE MENU */}
             <div
                 className="collapse d-lg-none fixed-top mobile-menu"
                 id="navbarToggleExternalContent"
             >
                 <div className="bg-purple-dark pt-4 pb-2 mt-5">
                     <ul className="nav flex-column">
-
                         <li className="nav-item">
-                            <Link
-                                className="nav-link text-white"
-                                to="/#projects"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarToggleExternalContent"
-                            >
+                            <Link className="nav-link text-white" to="/#projects">
                                 projects
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link
-                                className="nav-link text-white"
-                                to="/#pin_project"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarToggleExternalContent"
-                            >
+                            <Link className="nav-link text-white" to="/#pin_project">
                                 About me
                             </Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link
-                                className="nav-link text-white"
-                                to="/contact"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarToggleExternalContent"
-                            >
+                            <Link className="nav-link text-white" to="/contact">
                                 Contact me
                             </Link>
                         </li>
-
                     </ul>
                 </div>
             </div>
